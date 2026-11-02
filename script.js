@@ -8,7 +8,6 @@ function startIntro() {
     videoScreen.hidden = false;
 
     video.currentTime = 0;
-    video.muted = true;
 
     video.play().then(() => {
         // 播放成功
