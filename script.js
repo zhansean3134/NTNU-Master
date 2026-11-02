@@ -2,7 +2,7 @@
 function startIntro() {
     const welcome = document.getElementById("welcome-screen");
     const videoScreen = document.getElementById("video-screen");
-    const video = document.getElementById("intro-video");
+    const video = document.getElementById("aaa-video");
 
     welcome.hidden = true;
     videoScreen.hidden = false;
