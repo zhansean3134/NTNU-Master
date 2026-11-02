@@ -1,7 +1,7 @@
 function startIntro() {
     const welcome = document.getElementById("welcome-screen");
     const videoScreen = document.getElementById("video-screen");
-    const video = document.getElementById("intro-video");
+    const video = document.getElementById("aaa-video");
 
     // 隱藏首頁，顯示影片
     welcome.hidden = true;
