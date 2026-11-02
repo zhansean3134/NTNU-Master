@@ -2,39 +2,56 @@
 
 body {
     text-align: center;
-    background-color: #eeeeee;
-    font-family: Arial, sans-serif;
-    padding-top: 100px;
-    margin: 0;
-}
+        background-color: #eeeeee;
+            font-family: Arial, sans-serif;
+                padding-top: 100px;
+                    margin: 0;
+                    }
 
-/* ===== 標題 ===== */
+                    /* ===== 標題 ===== */
 
-h1 {
-    color: #333333;
-}
+                    h1 {
+                        color: #333333;
+                        }
 
-/* ===== 開始冒險按鈕 ===== */
+                        /* ===== 開始冒險按鈕 ===== */
 
-button {
-    padding: 12px 24px;
-    font-size: 18px;
-    cursor: pointer;
-}
+                        button {
+                            padding: 12px 24px;
+                                font-size: 18px;
+                                    cursor: pointer;
+                                    }
 
-/* ===== 影片畫面 ===== */
+                                    /* ===== 影片畫面 ===== */
 
-#video-screen {
-    padding: 20px;
-}
+                                    #video-screen {
+                                        width: 100%;
+                                            padding: 20px 0;
+                                                box-sizing: border-box;
+                                                }
 
-/* ===== 影片播放器 ===== */
+                                                /* ===== 影片播放器：平板與電腦 ===== */
 
-#intro-video {
-    display: block;
-    width: 75%;
-    max-width: 650px;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 12px;
-}
+                                                #intro-video {
+                                                    display: block;
+                                                        width: auto;
+                                                            height: auto;
+                                                                max-width: min(90vw, 650px);
+                                                                    max-height: 70vh;
+                                                                        margin: 0 auto;
+                                                                            border-radius: 12px;
+                                                                                object-fit: contain;
+                                                                                }
+
+                                                                                /* ===== 手機版 ===== */
+
+                                                                                @media (max-width: 600px) {
+                                                                                    body {
+                                                                                            padding-top: 40px;
+                                                                                                }
+
+                                                                                                    #intro-video {
+                                                                                                            max-width: 90vw;
+                                                                                                                    max-height: 65vh;
+                                                                                                                        }
+                                                                                                                        }
