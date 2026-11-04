@@ -9,7 +9,7 @@ function startIntro() {
         video.currentTime = 0;
 
         video.play().catch(error => {
-        console.log("影片播放失敗：", error);
-        alert("影片無法自動播放，請按影片上的播放鍵。");
+            console.log("影片播放失敗：", error);
+            alert("影片無法自動播放，請按影片上的播放鍵。");
         });
     }
