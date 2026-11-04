@@ -49,3 +49,8 @@ button {
     height: auto;
     margin: 20px auto 0;
 }
+
+#video-screen[hidden] {
+    display: none !important;
+    visibility: hidden !important;
+}
