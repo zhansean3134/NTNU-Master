@@ -21,14 +21,15 @@ button {
         align-items: center;
         }
 
-#video-screen[hidden] {
-        display: none !important;
+#video-screen{
+        display: none;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
         }
 
 #video-screen:not([hidden]) {
         display: flex;
-        justify-content: center;
-        align-items: center;
         }
 
 #intro-video {
