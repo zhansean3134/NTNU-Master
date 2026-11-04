@@ -27,6 +27,9 @@ button {
 
 #video-screen:not([hidden]) {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         }
 
 #intro-video {
