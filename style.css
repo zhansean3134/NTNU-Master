@@ -21,6 +21,10 @@ button {
         align-items: center;
         }
 
+#video-screen[hidden] {
+        display: none !important;
+        }
+
 #video-screen:not([hidden]) {
         display: flex;
         }
