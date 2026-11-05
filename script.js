@@ -8,12 +8,15 @@ function startIntro() {
         videoScreen.hidden = false;
 
         video.currentTime = 0;
+
         sound.currentTime = 0;
         sound.play();
 
+        setTimeout(() => {
         video.play().catch(error => {
             console.log("影片播放失敗：", error);
             alert("影片無法自動播放，請按影片上的播放鍵。");
-        });
+                });
+        }, 2000);
 
     }
