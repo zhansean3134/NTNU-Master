@@ -41,14 +41,14 @@ button {
 
 #welcome-screen h1 {
         position: absolute;
-        top: 53%;
+        top: 51%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0;
         color: #222222;
 
-        font-size: 3.8em;
-        letter-spacing: 8px;
+        font-size: 4.5em;
+        letter-spacing: 20px;
         font-weight: bold;
     }
 
