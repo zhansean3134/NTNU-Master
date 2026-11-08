@@ -22,8 +22,8 @@ button {
 #intro-video {
         display: block;
         width: 85%;
-        max-width: 900px;
-        height: 650px;
+        max-width: 1000px;
+        height: 750px;
         margin: 0 auto;
         border-radius: 12px;
     }
