@@ -3,7 +3,7 @@ function startIntro() {
         const videoScreen = document.getElementById("video-screen");
         const video = document.getElementById("intro-video");
         const sound = document.getElementById("click-sound");
-        sound.volume = 0.2;
+        sound.volume = 0.6;
 
         welcome.hidden = true;
         videoScreen.hidden = false;
